@@ -1,0 +1,52 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:   #282828;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #1DB954;
+    margin-bottom: 20px;
+  }
+  
+  .greeting {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #1DB954;
+  }
+  
+  .info p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+
+  .logout-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #1DB954;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .logout-button:hover {
+    background-color: #1a9850;
+  }
+  
+  .dashboard {
+    /* Asegúrate de que no haya un background-color que sobrescriba el global */
+    padding: 20px;
+  }
+  

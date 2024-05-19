@@ -1,0 +1,25 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;  /* Esto asegura que los elementos se alineen en columna */
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #333;  /* Color de fondo oscuro para el sidebar */
+  color: white;
+  padding: 20px;  /* Espacio alrededor del contenido en el sidebar */
+}
+
+.sidebar-item {
+  padding: 10px;
+  margin: 5px 0;  /* Espacio vertical entre elementos */
+  text-decoration: none;
+  color: white;  /* Texto blanco para contraste */
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.sidebar-item:hover {
+  background-color: #1DB954;  /* Cambio de color al pasar el mouse */
+}
